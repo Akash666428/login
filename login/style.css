@@ -1,0 +1,39 @@
+/* ----------- Login ----------  */
+
+.form-control{
+    border: none;
+    padding: 2px;
+    border-bottom: 2px solid rgb(143, 80, 21);
+    border-radius: 0px;
+  }
+
+  .btn{
+    text-align: center;
+    justify-content: center;
+    padding: 0 auto;
+    background-color: rgb(196, 142, 16);
+  }
+  
+  /* -----------------  */
+
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
+
+  .h-custom {
+  height: calc(100% - 73px);
+  }
+
+  @media (max-width: 450px) {
+  .h-custom {
+  height: 100%;
+  }
+  }
+
+  
+
+
